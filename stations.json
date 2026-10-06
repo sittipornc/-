@@ -1,0 +1,62 @@
+[
+  {
+    "id": "K001",
+    "name": "สถานีวัดระดับน้ำ กาญจนบุรี 1",
+    "province": "Kanchanaburi",
+    "latitude": 13.8175,
+    "longitude": 99.5125,
+    "water_height": 2.3,
+    "threshold": 3.0,
+    "alert_level": "ปกติ"
+  },
+  {
+    "id": "K002",
+    "name": "สถานีวัดระดับน้ำ กาญจนบุรี 2",
+    "province": "Kanchanaburi",
+    "latitude": 13.7432,
+    "longitude": 99.3841,
+    "water_height": 2.9,
+    "threshold": 3.0,
+    "alert_level": "เฝ้าระวัง"
+  },
+  {
+    "id": "K003",
+    "name": "สถานีวัดระดับน้ำ กาญจนบุรี 3",
+    "province": "Kanchanaburi",
+    "latitude": 13.6531,
+    "longitude": 99.4567,
+    "water_height": 3.5,
+    "threshold": 3.0,
+    "alert_level": "ล้นตลิ่ง"
+  },
+  {
+    "id": "R001",
+    "name": "สถานีวัดระดับน้ำ ราชบุรี 1",
+    "province": "Ratchaburi",
+    "latitude": 13.5352,
+    "longitude": 99.8234,
+    "water_height": 1.8,
+    "threshold": 2.5,
+    "alert_level": "ปกติ"
+  },
+  {
+    "id": "R002",
+    "name": "สถานีวัดระดับน้ำ ราชบุรี 2",
+    "province": "Ratchaburi",
+    "latitude": 13.5930,
+    "longitude": 99.7500,
+    "water_height": 2.6,
+    "threshold": 2.5,
+    "alert_level": "เฝ้าระวัง"
+  },
+  {
+    "id": "R003",
+    "name": "สถานีวัดระดับน้ำ ราชบุรี 3",
+    "province": "Ratchaburi",
+    "latitude": 13.4700,
+    "longitude": 99.6833,
+    "water_height": 3.0,
+    "threshold": 2.5,
+    "alert_level": "ล้นตลิ่ง"
+  }
+]

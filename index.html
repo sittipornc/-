@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>แผนที่เตือนภัยระดับน้ำ</title>
+    <meta name="description"
+        content="แผนที่แสดงสถานีวัดระดับน้ำในจังหวัดกาญจนบุรีและราชบุรี พร้อมสีแจ้งเตือนระดับน้ำ" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-title">
+            <span class="header-icon">🌊</span>
+            <h1>แผนที่เตือนภัยระดับน้ำ</h1>
+        </div>
+        <select id="province-select">
+            <option value="">-- เลือกจังหวัด --</option>
+            <option value="Kanchanaburi">กาญจนบุรี</option>
+            <option value="Ratchaburi">ราชบุรี</option>
+        </select>
+    </div>
+
+    <!-- Legend -->
+    <div class="legend">
+        <h3>สัญลักษณ์</h3>
+        <div class="legend-item"><span class="legend-dot green"></span> ปกติ</div>
+        <div class="legend-item"><span class="legend-dot yellow"></span> เฝ้าระวัง</div>
+        <div class="legend-item"><span class="legend-dot red"></span> ล้นตลิ่ง</div>
+    </div>
+
+    <!-- Station Info Panel -->
+    <div id="info-panel" class="info-panel hidden">
+        <button id="close-panel" class="close-btn">&times;</button>
+        <div id="info-content"></div>
+    </div>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
